@@ -1,0 +1,9 @@
+get the user input for height
+        if the input not  in the between 1-8 
+        get user input    -> use do, while loop 
+
+make outer and inner for loops
+ outer loop -> i<height(n)
+  inner loops -> 1st:  n-i-1 (print space, first print dots to see)
+                 2nd:  i+1 (print hashes)
+                 print new line

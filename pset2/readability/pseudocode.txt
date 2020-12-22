@@ -1,0 +1,22 @@
+1. get the user input by get_string("Text: ")
+2. find number of letters, words and sentences.
+        -LETTERS -> upper and lowe case 
+        if (s[i] >= 'a' && s[i] <= 'z')
+        {
+            printf("%c", s[i] - 32);
+        } 
+        (use similar logic)
+        -WORDS -> seperated by SPACE
+        number of spaces doesnt equal to the numbe rof spaces ex. 5 words has 4 spaces between them
+        -SENTENCES -> ended by  !, ?, . 
+        print them first to check.
+3. calculate the grade algrotihm 
+ index = 0.0588 * L - 0.296 * S - 15.8 
+ (L is the average number of letters per 100 words in the text,
+ and S is the average number of sentences per 100 words in the text.) -> use round and cast to float not to get int return
+ if >= Grade +16
+ if < 1   Before Grade 1
+ 4.print to the console (Grade + index )
+
+
+ 

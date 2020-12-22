@@ -1,0 +1,22 @@
+1. Get the key from command line using the structure of
+int main(int argc, string argv[]) 
+(argc is the argument count, or number of arguments, and argv is an array of strings that are the arguments)
+!key should be digit -> valid digit so you need to check the every character in the given key 
+!arc can be just 2 (2 arguments: /.caesar 5) -> print Usage: ./caesar key in these situations
+
+2. Convert key to the integer, key is taken as an string
+3. Get plain text with get_string()
+4. Encipher that plain text-> shift it by key
+    in loop
+    if not alphebetic character -> leave them as they are
+    if alphabetic 
+    1.Convert ASCII to alphabetical index
+    2.Use Formula  ci = (pi + key) % 26; 
+    3.Convert ASCII (add 65 if upper case, add 97 if lower case)
+5. Print it to the console
+use these functions;
+isalpha 
+isupper
+islower
+5.
+

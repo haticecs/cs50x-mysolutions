@@ -1,0 +1,20 @@
+1. Get the key from command line using the structure of
+int main(int argc, string argv[])
+    check if the key is 26 characters.
+    if not - Key must contain 26 characters.
+    if not a character or lack of key -> Usage: ./substitution key
+ADDİTİONAL -> MAKE KEY CONTAİNS ALL OF THE UPPER CASES!
+2. Get plain text with get_string()
+4. Encipher that plain text->
+    in loop
+    if not alphebetic character -> leave them as they are
+    if alphabetic
+        if upper case -> change with the key
+        if lower case -> change it with key and add 32
+5. Print it to the console
+use these functions;
+isalpha
+isupper
+islower
+5.
+

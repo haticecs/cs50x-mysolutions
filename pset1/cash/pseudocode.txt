@@ -1,0 +1,7 @@
+1. get the user input (get_float()) with non negative values
+2. convert it to the cent by * 100 and round it to the nearest integer
+3. define counts.
+3. divide the ownedCoin by 25
+        if division>0, ownedCoin = remainder
+        count += counts;
+   repeat for this others.

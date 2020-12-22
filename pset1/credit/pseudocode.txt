@@ -1,0 +1,27 @@
+//prompt for input 
+1. take input as a long value
+        if it is not credit card number keep asking (do while loop)
+        if it is numeric but not a card number, return INVALID (may calculate how many digits it has)
+        
+        
+//calculate the check sum to determine validation
+        int sum0 = 0;
+        int sum2 = 0;
+        in 1st for loop
+        divide input by 10^n
+        take the remainder
+            if  (n->1,3,5)
+                if remainder*2 one digit
+                sum0 += 2*remainder 
+                if not divide by 10 and add remainders ...(2 digits)
+            else(n->2,...)
+                sum1 += remainder;
+        int result =  sum0+sum1;
+        check the last digit of sum by dividing 10.
+        if the last digit 0 -> VALID
+        not -> INVALID
+//check for card lenght and starting digit
+
+        if(15 digits and starting with 34 or 37) -> AMEX
+        if(16 digits and starting with 51,52,53,54,55) -> MASTERCARD
+        if(13 or 16 digits and starts with 4) -> VISA
