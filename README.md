@@ -1,5 +1,5 @@
 # cs50x-mysolutions
-**My solutions to the CS50x 2020 and 2021<br />**
+**My solutions to the CS50x 2020-2021<br />**
 _4 of 10 assignments complete. <br />_
 **Problem Set 0 (2020) <br />**
 Scratch - 100% <br />
